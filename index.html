@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-    <nav>
+    <nav class="pink">
         <div class="nav-wrapper">
-          <a href="#!" class="brand-logo">Logo</a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <a href="#!" class="black-text">Home</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger black-text"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="sass.html">Sass</a></li>
             <li><a href="badges.html">Components</a></li>
@@ -23,12 +23,33 @@
       </nav>
     
       <ul class="sidenav" id="mobile-demo">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
+        <li>
+            <div class="user-view">
+            <div class="background">
+              <img src="/assets/images/p2.jpg" class="w-full">
+            </div>
+            <a href="#user"><img class="circle" src="/assets/images/p1.jpg"></a>
+            <a href="#name"><span class="white-text name">sahar</span></a>
+            <a href="#email"><span class="white-text email">sahar@gmail.com</span></a>
+          </div>
+        </li>
+          <li>
+            <a href="https://materializecss.com/icons.html"><i class="material-icons">insert_link</i>Icon</a>
+          </li>
+          <li>
+            <a href="https://github.com/sahar-cmd/sahar">github</a>
+          </li>
+          <li><div class="divider"></div></li>
+          <li><a class="subheader">Subheader</a></li>
+          <li><a class="waves-effect" href="#!">Home</a></li>
       </ul>
 
+      
+      <section>
+        
+          <a class="waves-effect waves-light btn pink">button</a>
+          <a class="waves-effect waves-light btn pink">button</a>
+      </section>
     
     <script src="/assets/materialize/js/materialize.min.js"></script>
     <script src="/assets/js/main.js"></script>
